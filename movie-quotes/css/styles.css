@@ -1,0 +1,28 @@
+p {
+    color:black;
+    font-size: 20px;
+}
+
+.dana b {
+    color:lightcoral
+}
+
+.peter b {
+    color:lightskyblue;
+}
+
+.mayor b {
+    color: gold
+}
+
+.ray b {
+    color: turquoise
+}
+
+.egon b {
+    color: grey
+}
+
+.winston b {
+    color: pink
+}
