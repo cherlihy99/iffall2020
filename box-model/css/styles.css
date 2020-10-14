@@ -1,0 +1,27 @@
+div.box-layers {
+    background-color: #eeeeee;
+    padding: 2rem 1rem 4rem 1rem;
+    border-top: 10px solid #dddddd;
+    margin: 4rem 0;
+}
+
+.h2-wrapper {
+    border: 1px solid black;
+}
+
+/* FIXED- have to include link tag for both stylesheets, not put them both in one! (moved my I don't think the above style did anything?  <h2> margin is still spilling out past div when I  inspect) */
+
+.box-sizing-example {
+    background-color: #eeeeee;
+    padding: 2rem;
+    border: 10px solid #dddddd;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .overflow-example {
+      width: 50%;
+      height: 300px;
+      overflow: hidden;
+      overflow: auto;
+  }
