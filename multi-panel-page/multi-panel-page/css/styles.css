@@ -1,0 +1,166 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-color: rgba(255,0,0,.5);
+    text-align: center;
+    padding-top: 98px;
+    height: 382px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: -20pt;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* James talks a little about inserting image in zoom recording at this point */
+
+.column-container {
+    margin: auto;
+    width: 963px;
+
+}
+
+/* Helpful part about divs & selectors in recording */
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding-top: 33px;
+}
+
+
+
+
+section {
+    padding-top: 0.5px;
+    font-size: 17.8px;
+}
+
+.middlebody p {
+    font-size: 17.8px;
+    line-height: 141%;
+}
+
+
+.bodyofwater {
+    width: 400px; 
+    height: 300px;
+    float: right;
+    margin: 0px 0px 30px 35px; 
+    /* padding: 0% 0% 2% 4%; */
+}
+
+.grid-title {
+    padding-top: 0;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+
+
+/* Abram has good points to watch for in end of recording */
+
+.background-mountainview {
+    background-image: url(http://seattleventuring.org/wp-content/uploads/2016/04/lake-mountain-hd-wall-1.jpg);
+    background-size: cover; }
+
+    .middlebody {
+        background-image: url(https://www.icolorpalette.com/download/solidcolorimage/e3d2db_solid_color_background_icolorpalette.png);
+    background-size: cover; 
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+
+    .gridsection {
+        padding-bottom: 60px;
+        background-image: url(https://images.unsplash.com/photo-1593259396922-26d3617f84cc?ixlib=rb-1.2.1&w=1000&q=80);
+        background-size: cover;
+        padding-top: 40px;
+    }
+
+    .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0;
+        }
+        
+        .grid li {
+            width: 100%;
+            padding: 0;
+            display: block;
+        }
+    
+        img {
+            width: 200px;
+            height: 150px;
+            display: inline-block;
+            padding-bottom: 0;
+            padding-right: 9px;
+        }
+
+      .gridsection ul li div {
+        display: inline-block;
+        width: 50%;
+        
+        }
+
+        .gridsection ul li div p {
+            margin-top: 0;
+            margin-bottom: 0;
+            }
+
+      li {
+            height: 150px;
+            margin-bottom: 24px;
+        }
+
+       /* p {
+           margin-bottom: 5;
+           margin-top: 0;
+       } */
+
+       h4 {
+           margin-top: 10px;
+           font-size: 20px;
+           margin-bottom: 5px;
+       }
+
+       div.column-container p {
+           margin-bottom: 0px;
+           padding-bottom: 4px;
+       }
+
+       .footer h3 {
+           margin-top: 65px;
+           margin-bottom: 35px;
+       }
+
+       .footer p {
+           text-align: center;
+           margin: auto;
+           font-size: 25px;
+           line-height: normal;
+           margin-right: 129px;
+           margin-left: 131px;
+       }
+
+       .footer {
+        background-image: url(https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-1.2.1&w=1000&q=80);
+        background-size: cover;
+        padding-bottom: 50px;
+}
+       .bottombar p {
+           padding-top: 14px;
+           font-size: 18px;
+           background-color: white;
+           padding-top: 20px;
+           padding-bottom: 20px;
+       }
