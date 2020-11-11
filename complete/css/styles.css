@@ -1,0 +1,106 @@
+html {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d2529;
+}
+
+
+body {
+    max-width: 960px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe1dc;
+}
+
+
+header {
+    text-align: center;
+}
+
+
+.description {
+    font-size: 21px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.midtext {
+    font-size: 19px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: lust-script-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0%;
+    font-size: 45px;
+}
+
+.header-pic {
+    display: block;
+    height: 45%;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body-pic {
+    display: block;
+    height: 45%;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Ingredients li {
+    list-style: none;
+    margin: 20px;
+    width: 85%
+}
+
+.Instructions li {
+    margin: 20px;
+    margin-left: 35px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    text-indent: 59px;
+}
+
+.Ingredients-Instructions {
+    margin-top: 15px;
+}
+
+/* .Ingredients {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* .Instructions {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* @media (min-width: 640px) {
+    .Ingredients li { display: flex; }
+  }
+
+  @media (min-width: 640px) {
+    .Instructions li { display: flex;}
+  } */
+
+  @media (min-width: 640px) {
+    .Ingredients-Instructions { display: flex; }
+    .Ingredients-Instructions > * { width: 50%; }
+  }
+
+  .Footer {
+      text-indent: 59px;
+  }
