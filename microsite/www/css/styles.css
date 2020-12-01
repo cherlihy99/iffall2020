@@ -1,0 +1,180 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+
+/* body { font-size: 10pt; }
+
+  @media (min-width: 640px) {
+    html { font-size: 12pt; }
+  } */
+
+
+h1 {
+    color: #213c3f;
+    text-align: center;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    white-space: nowrap;
+}
+
+h1 { font-size: 8pt; }
+
+  @media (min-width: 585px) {
+    h1 { font-size: 10pt; }
+  }
+
+h1 { font-size: 10pt; }
+
+  @media (min-width: 800px) {
+    h1 { font-size: 12pt; }
+  }
+
+  h1 { font-size: 10pt; }
+
+  @media (min-width: 950px) {
+    h1 { font-size: 16pt; }
+  }
+
+
+.titlecurve {
+    max-width: 100%;
+    width: 70%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 43%;
+    margin-bottom: 0px;
+    object-fit: cover;
+}
+
+#homepageleft,
+	#homepageright {
+    width: 50%;
+    height: auto;
+	}
+	
+	#homepageleft {
+    background-color: #213c3f;
+    background-image: url("../Images/persimmontitle.jpg");
+    background-size: cover;
+    background-position: center top;
+    /* background-attachment: fixed; */
+	}
+	
+	#homepageright {
+    background-color: #ef8140;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #homepageleft img {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    transform: rotate(-90deg);
+  }
+
+
+  a {
+    color: #213c3f;
+  }
+
+
+  header {
+    display: flex;
+  }
+
+
+  @media (min-width: 585px) {
+    header { font-size: 10pt; }
+  }
+
+  @media (min-width: 800px) {
+    header { font-size: 12pt; }
+  }
+
+  @media (min-width: 950px) {
+    header { font-size: 16pt; }
+  }
+
+
+
+  ul {
+    padding-top: 5%;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 6%;
+    line-height: 170%;
+  }
+
+  .quote {
+    background-color: #f1d8ce;
+    padding: 2%;
+    margin-top: 5%;
+    margin-right: 10%;
+    white-space: nowrap;
+    font-size: 8.75pt;
+    color:  #ef8140;
+    font-style: lighter;
+    margin-bottom: -7%;
+    z-index: 5;
+  }
+
+  
+
+  @media (min-width: 550px) {
+    .quote { font-size: 10pt; }
+
+  }
+
+  
+
+  @media (min-width: 670px) and (max-width : 769px) {
+    .quote { font-size: 12pt; }
+  }  
+
+
+  @media (min-width: 770px) {
+    .quote { font-size: 14pt; }
+  } 
+
+  .speciesgrid img {
+    display: block;
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
+
+  .speciesgrid ul {
+    list-style-type: none;
+    background-color: #a79334;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-top: 10%;
+    padding-right: 0;
+    padding-bottom: 10%;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .speciesgrid li {
+    padding: 5%;
+    text-align: left;
+    font-size: 10pt;
+  }
+
+  h3 {
+    color: #f1d8ce;;
+  }
