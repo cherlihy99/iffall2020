@@ -267,3 +267,27 @@ h1 {
     padding-bottom: 6%;
     color:  #f1d8ce;
   }
+
+  .culinarypic {
+    position: absolute;
+    z-index: -999;
+    width: 120%;
+  }
+
+  .culinarygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .culinarygrid li {
+    padding: 2%;
+    
+  }
+
+  .culinarygrid img {
+    display: block;
+    width: 100%;
+  }
