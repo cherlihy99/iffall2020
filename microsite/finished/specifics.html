@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="ext">
+    <head>
+        <meta charset="UTF-8">
+        <title>Persimmon Microsite</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ekl6abp.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/1fe11ae212.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/bwz2meb.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+
+
+    <script>
+
+        $( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+            
+            $(".fa-bars").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+                $("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+                console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+            });
+
+        });
+
+    </script>
+
+<style>
+
+
+    #drawer {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        margin-top: 0%;
+    }
+
+    button {
+        background-color: transparent;
+        color: #213c3f;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #drawer button.controls {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 30px;
+        width: 100%;
+        background-color: #f1d8ce;
+        cursor: pointer;
+    }
+
+    #drawer.open button.controls {
+        background-color: #f1d8ce;
+    }
+
+    #drawer button.controls:after {
+        content: "open +";
+        font-family: aileron, sans-serif;
+        font-size: 10px;
+    }
+
+    #drawer.open button.controls:after {
+        content: "close -";
+    }
+
+    #drawer .contents {
+        height: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #ef8140;
+        color: #213c3f;
+        transition: all .5s;
+        overflow: hidden;
+        position: absolute;
+        font-family: aileron, sans-serif;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0%;
+        line-height: 200%;
+    }
+
+    #drawer.open .contents {
+        height: 190px;
+        padding: 15px 5px 5px 10px;
+    }
+
+
+</style> 
+
+
+
+    <header>
+        <div class="pagetitle"> 
+            Specifics 
+            <div id="drawer">
+                <button><i class="fa fa-bars"></i></button>
+                <ul class="contents">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="culinary.html">culinary</a>
+                    </li>
+                    <li>
+                        <a href="nutrition.html">nutrition</a>
+                    </li>
+                    <li>
+                        <a href="sources.html">sources</a>
+                    </li>
+                </ul>
+                
+            </div>
+        
+
+        </div> 
+        
+        <!-- put padding in header element -->
+
+    </header>
+
+    <body>
+        <p class="bodycopy">The most widely cultivated of these is the Asian or Japanese persimmon, Diospyros kaki. Like the tomato, persimmons are not commonly considered to be berries, but morphologically the fruit is in fact a berry. The tree Diospyros kaki is the most widely cultivated species of persimmon. Typically the tree reaches 15 to 60 ft in height and is round-topped. The leaves are 7–15 centimetres long, and are oblong in shape with brown-hairy petioles 2 centimetres (0.8 in) in length. They are leathery and glossy on the upper surface, brown and silky underneath. The leaves are deciduous and bluish-green in color. In the fall, they turn to yellow, orange, or red. </p>
+            
+         <p class="bodycopy"> Persimmon fruit matures late in the fall and can stay on the tree until winter. In color, the ripe fruit of the   
+             cultivated strains range from glossy light yellow-orange to dark red-orange depending on the species and variety. They similarly vary in size from 0.6 to 3.5 in in diameter, and in shape the varieties may be spherical, acorn-, or pumpkin-shaped. The flesh is astringent until fully ripe and is yellow, orange, or dark-brown in color. The calyx generally remains attached to the fruit after harvesting, but becomes easy to remove once the fruit is ripe. The ripe fruit has a high glucose content and is sweet in taste.</p>
+
+             <div class="specificsquote">
+                <h2>In 2018, China produced about two-thirds of 
+                    the world total of persimmons.</h2>
+            </div>
+            <img class="specificsimg" src="Images/persimmon3.jpeg">
+
+        <div class="bodycopy specifics">
+            <p>
+            Commercially and in general, there are two types of persimmon fruit: astringent and non-astringent. Astringent persimmons contain very high levels of soluble tannins and are unpalatable if eaten before completely softened, but the sweet, delicate flavor of fully ripened persimmons of varieties that are astringent when unripe is particularly relished. The astringency of tannins is removed in various ways. Examples include ripening by exposure to light for several days and wrapping the fruit in paper (probably because this increases the ethylene concentration of the surrounding air). For domestic purposes, the most convenient and effective process is to store the ripening persimmons in a clean, dry container together with other varieties of fruit that give off particularly large quantities of ethylene while they are ripening; apples and related fruits such as pears are effective, and so are bananas and several others. <br>
+        </p>
+           
+        <p> 
+            The non-astringent persimmon is squat like a tomato and is most commonly sold as fuyu. Non-astringent persimmons may be consumed when still very firm and remain edible when very soft. There is a third type, less commonly available, the pollination-variant non-astringent persimmons. When fully pollinated, the flesh of these fruit is brown inside—known as goma in Japan—and the fruit can be eaten when firm. These varieties are highly sought after. Tsurunoko, sold as “chocolate persimmon” for its dark brown flesh, Maru, sold as “cinnamon persimmon” for its spicy flavor, and Hyakume, sold as “brown sugar”, are the three best known. Before ripening, persimmons usually have a “chalky” or bitter taste.</p>
+        </div>
+     </body>
+
+</html>

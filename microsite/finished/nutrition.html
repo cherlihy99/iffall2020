@@ -1,0 +1,135 @@
+  <!DOCTYPE html>
+<html class="ext">
+    <head>
+        <meta charset="UTF-8">
+        <title>Persimmon Microsite</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ekl6abp.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/1fe11ae212.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/bwz2meb.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script>
+
+        $( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+            
+            $(".fa-bars").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+                $("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+                console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+            });
+
+        });
+
+    </script>
+
+<style>
+
+
+    #drawer {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        margin-top: 0%;
+    }
+
+    button {
+        background-color: transparent;
+        color: #213c3f;
+        padding-left: 0;
+    }
+
+    #drawer button.controls {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 30px;
+        width: 100%;
+        background-color: none;
+        cursor: pointer;
+    }
+
+    #drawer.open button.controls {
+        background-color: #f1d8ce;
+    }
+
+    #drawer button.controls:after {
+        content: "open +";
+        font-family: aileron, sans-serif;
+        font-size: 10px;
+    }
+
+    #drawer.open button.controls:after {
+        content: "close -";
+    }
+
+    #drawer .contents {
+        height: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #ef8140;
+        color: #213c3f;
+        transition: all .5s;
+        overflow: hidden;
+        position: absolute;
+        font-family: aileron, sans-serif;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0%;
+        line-height: 200%;
+    }
+
+    #drawer.open .contents {
+        height: 190px;
+        padding: 15px 5px 5px 10px;
+    }
+
+
+</style> 
+
+</head>
+
+
+    <body>
+        <header>
+            <div class="pagetitle"> 
+                Nutrition
+                <div id="drawer">
+                    <button><i class="fa fa-bars"></i></button>
+                    <ul class="contents">
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="specifics.html">specifics</a>
+                        </li>
+                        <li>
+                            <a href="culinary.html">culinary</a>
+                        </li>
+                        <li>
+                            <a href="sources.html">sources</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            
+
+            </div> 
+            
+        <!-- put padding in header element -->
+
+         </header>
+
+    
+        <p class="bodycopy nutrition"> Compared to apples, persimmons have higher levels of dietary fiber and some dietary minerals,[13] but overall are not a significant source of micronutrients, except for manganese (17% of the Daily Value, DV) and provitamin A beta-carotene (10% DV, table for raw Japanese persimmons per 100 gram amount). In a 100 gram amount, raw American persimmons are a rich source of vitamin C (80% DV) and iron (19% DV). </p>
+
+        <p class="nutritionlabel"><img src="Images/persimmon-nutrition.png"></p>
+        
+     </body>
+
+ </html>

@@ -1,0 +1,329 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+
+/* body { font-size: 10pt; }
+
+  @media (min-width: 640px) {
+    html { font-size: 12pt; }
+  } */
+
+
+h1 {
+    color: #213c3f;
+    text-align: center;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    white-space: nowrap;
+    font-size: 9pt;
+}
+
+
+  @media (min-width: 585px) {
+    h1 { font-size: 10pt; }
+  }
+
+  @media (min-width: 800px) {
+    h1 { font-size: 12pt; }
+  }
+
+  @media (min-width: 950px) {
+    h1 { font-size: 16pt; }
+  }
+
+
+.titlecurve {
+    max-width: 100%;
+    width: 70%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 43%;
+    margin-bottom: 0px;
+    object-fit: cover;
+}
+
+/* #homepageleft,
+	#homepageright {
+    width: 50%;
+    height: auto;
+	} */
+  
+  
+  @media (min-width: 585px) {
+    #homepageleft,
+  #homepageright { width: 100%; }
+  }
+
+
+	#homepageleft {
+    background-color: #213c3f;
+    background-image: url("../Images/persimmontitle.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+	}
+	
+	#homepageright {
+    background-color: #ef8140;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #homepageleft img {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    transform: rotate(-90deg);
+  }
+
+
+  a {
+    color: #f1d8ce;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #213c3f;
+    text-decoration: underline;
+    }
+
+
+  header {
+    display: flex;
+  }
+
+
+  @media (min-width: 585px) {
+    header { font-size: 10pt; }
+  }
+
+  @media (min-width: 800px) {
+    header { font-size: 12pt; }
+  }
+
+  @media (min-width: 950px) {
+    header { font-size: 16pt; }
+  }
+
+
+
+  ul {
+    padding-top: 5%;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 6%;
+    line-height: 170%;
+  }
+
+  .quote {
+    background-color: #f1d8ce;
+    padding: 2%;
+    margin-top: 5%;
+    margin-right: 10%;
+    white-space: nowrap;
+    font-size: 8.75pt;
+    color:  #ef8140;
+    margin-bottom: -7%;
+    z-index: 5;
+  }
+
+  .quote h2 {
+    font-weight: 300;
+  }
+
+  
+
+  @media (min-width: 550px) and (max-width: 669px){
+    .quote { font-size: 10pt; }
+  }
+
+  @media (min-width: 670px) and (max-width: 769px) {
+    .quote { font-size: 12pt; }
+  }  
+
+  @media (min-width: 770px) {
+    .quote { font-size: 14pt; }
+  } 
+
+  .speciesgrid img {
+    display: block;
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
+
+  .speciesgrid ul {
+    list-style-type: none;
+    background-color: #a79334;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-top: 10%;
+    padding-right: 0;
+    padding-bottom: 10%;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .speciesgrid li {
+    padding: 5%;
+    text-align: left;
+    font-size: 10pt;
+  }
+
+  h3 {
+    color: #f1d8ce;
+    margin-bottom: 1%;
+    padding-top: 6px;
+  }
+
+  .ext {
+    background-color: #f1d8ce;
+  }
+
+  .pagetitle {
+    color: #213c3f;
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    margin-left: 8%;
+    margin-bottom: 2%;
+  }
+
+ .fa-bars {
+    padding-left: 15px;
+    font-size: 27pt;
+  }
+
+  .bodycopy {
+    color: #213c3f;
+    display: block;
+    margin-left: 8%;
+    margin-right: 9%;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14pt;
+    line-height: 145%;
+    padding-bottom: 0.5%;
+  }
+
+  @media (min-width: 875px) {
+    .bodycopy { font-size: 17pt; }
+  }
+
+  @media (min-width: 1350px) {
+    .bodycopy { font-size: 20pt; }
+  }
+
+  .nutrition {
+    background-color:  #ef8140;
+    margin-right: 0%;
+    padding-right: 9%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: -10%;
+  }
+
+  .nutritionlabel {
+    position: absolute;
+    background-image: url("../Images/persimmonnutrition.jpg");
+    background-size: cover;
+    padding-top: 20%;
+    padding-left: 30%;
+    padding-right: 50%;
+    padding-bottom: 10%;
+    margin-right: 0%;
+    z-index: -999;
+  }
+
+  .specificsquote {
+    background-color: #a79334;
+    padding: 2%;
+    padding-left: 3.5%;
+    padding-right: 3%;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 12pt;
+    color:  #f1d8ce;
+    margin-bottom: -7%;
+    z-index: 5;
+    font-family: aileron, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .specificsimg {
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+  }
+
+  .specifics {
+    background-color: #f7a861;
+    margin-top: 20%;
+    margin-right: 0%;
+    padding-right: 8%;
+    padding-left: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    color:  #213c3f;
+  }
+
+  .culinarypic {
+    position: absolute;
+    z-index: -999;
+    width: 120%;
+  }
+
+  .culinarygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .culinarygrid li {
+    padding: 2%;
+  }
+
+
+  .culinarygrid img {
+    display: block;
+    width: 100%;
+  }
+
+  .source {
+    background-color: #a79334;
+    margin-top: 4%;
+    padding-left: 4%;
+    padding-top: 2%;
+    color: #f1d8ce;
+    padding-right: 4%;
+    max-width: 60%;
+    min-width: 430px;
+    line-height: 170%;
+  }
+
+  .sourceimage img {
+    width: 100%;
+    position: absolute;
+    z-index: -999;
+    margin-left: 15%;
+    margin-top: 10%;
+  }

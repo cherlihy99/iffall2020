@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="ext">
+    <head>
+        <meta charset="UTF-8">
+        <title>Persimmon Microsite</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ekl6abp.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/1fe11ae212.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/bwz2meb.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script>
+
+        $( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+            
+            $(".fa-bars").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+                $("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+                console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+            });
+
+        });
+
+    </script>
+
+    <style>
+
+        #drawer {
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 30px;
+            margin-top: 0%;
+        }
+
+        button {
+            background-color: transparent;
+            color: #213c3f;
+            padding-left: 0;
+        }
+
+        #drawer button.controls {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 30px;
+            width: 100%;
+            background-color: none;
+            cursor: pointer;
+        }
+
+        #drawer.open button.controls {
+            background-color: #f1d8ce;
+        }
+
+        #drawer button.controls:after {
+            content: "open +";
+            font-family: aileron, sans-serif;
+            font-size: 10px;
+        }
+
+        #drawer.open button.controls:after {
+            content: "close -";
+        }
+
+        #drawer .contents {
+            height: 0;
+            padding: 0 10px;
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #ef8140;
+            color: #213c3f;
+            transition: all .5s;
+            overflow: hidden;
+            position: absolute;
+            font-family: aileron, sans-serif;
+            font-size: 20px;
+            text-align: left;
+            margin-top: 0%;
+            line-height: 200%;
+        }
+
+        #drawer.open .contents {
+            height: 190px;
+            padding: 15px 5px 5px 10px;
+        }
+
+    </style> 
+
+    </head>
+
+
+    <body>
+
+        <header>
+
+            <div class="pagetitle"> 
+                Sources
+                <div id="drawer">
+                    <button><i class="fa fa-bars"></i></button>
+                    <ul class="contents">
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="specifics.html">specifics</a>
+                        </li>
+                        <li>
+                            <a href="nutrition.html">nutrition</a>
+                        </li>
+                        <li>
+                            <a href="culinary.html">culinary</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+            
+            <!-- put padding in header element -->
+
+        </header>
+
+        <div class="sourceimage">
+            <img src="Images/sourcepersimmonimage.jpg">
+        </div>
+
+        <div class="bodycopy source">
+            <p>
+                <h3>Photos</h3> 
+                <a href="www.Unsplash.com">www.Unsplash.com</a> <br>
+                <a  href="www.googleimages.com">www.GoogleImages.com</a>
+            </p>
+
+            <p>
+                <h3>Information</h3>
+                <a href="https://en.wikipedia.org/wiki/Persimmon">https://en.wikipedia.org/wiki/Persimmon</a>
+
+                <a href="https://www.verywellfit.com/persimmon-nutrition-facts-4587438">https://www.verywellfit.com/persimmon-nutrition-facts-4587438</a>
+            </p>
+
+            <p>
+                <h3>Recipes</h3>
+                <a href="https://www.abbeyskitchen.com/persimmon-ginger-chicken-one-pot-dinner/">https://www.abbeyskitchen.com/persimmon-ginger-chicken-one-pot-dinner/</a>
+
+                <a href="https://www.farmfreshtoyou.com/recipes/726/spiced-roasted-persimmon-slices">https://www.farmfreshtoyou.com/recipes/726/spiced-roasted-persimmon-slices</a>
+
+                <br>
+
+                <a href="https://www.proportionalplate.com/persimmon-cake/">https://www.proportionalplate.com/persimmon-cake/</a>
+
+                <a href="https://saltandwind.com/recipes/417-persimmon-carpaccio-burrata-recipe">https://saltandwind.com/recipes/417-persimmon-carpaccio-burrata-recipe</a>
+
+                <a href="https://avirtualvegan.com/persimmon-cinnamon-smoothie/">https://avirtualvegan.com/persimmon-cinnamon-smoothie/</a>
+
+                <a href="https://www.simplyrecipes.com/recipes/persimmon_pudding_cake/">https://www.simplyrecipes.com/recipes/persimmon_pudding_cake/</a>
+
+                <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/kale-and-persimmon-salad-with-pecan-vinaigrette-3362815">https://www.foodnetwork.com/recipes/food-network-kitchen/kale-and-persimmon-salad-with-pecan-vinaigrette-3362815</a>
+
+                <a href="https://www.seriouseats.com/recipes/2013/01/creamy-persimmon-sorbet-recipe.html">https://www.seriouseats.com/recipes/2013/01/creamy-persimmon-sorbet-recipe.html</a>
+
+                <a href="https://bojongourmet.com/persimmon-pudding/">https://bojongourmet.com/persimmon-pudding/</a>
+            </p>
+        </div>
+
+    </body>
+
+</html>
