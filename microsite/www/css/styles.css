@@ -52,12 +52,19 @@ h1 {
     object-fit: cover;
 }
 
-#homepageleft,
+/* #homepageleft,
 	#homepageright {
     width: 50%;
     height: auto;
-	}
-	
+	} */
+  
+  
+  @media (min-width: 585px) {
+    #homepageleft,
+  #homepageright { width: 100%; }
+  }
+
+
 	#homepageleft {
     background-color: #213c3f;
     background-image: url("../Images/persimmontitle.jpg");
@@ -81,8 +88,14 @@ h1 {
 
 
   a {
-    color: #213c3f;
+    color: #f1d8ce;
+    text-decoration: none;
   }
+
+  a:hover {
+    color: #213c3f;
+    text-decoration: underline;
+    }
 
 
   header {
@@ -172,6 +185,8 @@ h1 {
 
   h3 {
     color: #f1d8ce;
+    margin-bottom: 1%;
+    padding-top: 6px;
   }
 
   .ext {
@@ -230,13 +245,14 @@ h1 {
     background-size: cover;
     padding-top: 20%;
     padding-left: 30%;
-    padding-right: 30%;
+    padding-right: 50%;
+    padding-bottom: 10%;
     margin-right: 0%;
     z-index: -999;
   }
 
   .specificsquote {
-    background-color: #a79334;;
+    background-color: #a79334;
     padding: 2%;
     padding-left: 3.5%;
     padding-right: 3%;
@@ -258,14 +274,14 @@ h1 {
   }
 
   .specifics {
-    background-color: #a85326;
+    background-color: #f7a861;
     margin-top: 20%;
     margin-right: 0%;
     padding-right: 8%;
     padding-left: 6%;
     padding-top: 6%;
     padding-bottom: 6%;
-    color:  #f1d8ce;
+    color:  #213c3f;
   }
 
   .culinarypic {
@@ -284,10 +300,30 @@ h1 {
 
   .culinarygrid li {
     padding: 2%;
-    
   }
+
 
   .culinarygrid img {
     display: block;
     width: 100%;
+  }
+
+  .source {
+    background-color: #a79334;
+    margin-top: 4%;
+    padding-left: 4%;
+    padding-top: 2%;
+    color: #f1d8ce;
+    padding-right: 4%;
+    max-width: 60%;
+    min-width: 430px;
+    line-height: 170%;
+  }
+
+  .sourceimage img {
+    width: 100%;
+    position: absolute;
+    z-index: -999;
+    margin-left: 15%;
+    margin-top: 10%;
   }
