@@ -1,0 +1,346 @@
+
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+			}
+
+            /* a#btn_cocacola {
+                display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #ffffff;
+				border: 2px solid #be1e1e;
+				color: #be1e1e;
+				font-size: 30px;
+				font-weight: bold;
+				text-decoration: none;
+                transition: all .5s;
+                font-family: corner-store-jf, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+            } */
+
+            a#btn_cocacola  { 
+                display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 80px;
+				margin: auto;
+                margin-top: 90px;
+                margin-bottom: 50px;
+				padding-top: 10px 40px 0 40px;
+                background-color: #fff;
+                border: 2px solid #be1e1e;
+                font-family: corner-store-jf, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+				color: #be1e1e;
+				text-align: center;
+				font-size: 32px;
+                transition: all .2s;
+                line-height: 35px;
+			}
+			
+			#btn_cocacola img {
+				width: 100%;
+				height: 100%;
+			}
+
+            a#btn_cocacola:hover {
+				background-color: black;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_apple {
+				display: block;
+				width: 120px;
+				height: 120px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				color: black;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+	
+			a#btn_apple:hover {
+				color: grey;
+				border: black;
+				text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+			}
+	
+			a#btn_npr {
+				display: block;
+				width: 120px;
+				height: 120px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				color: black;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+				kerning: 15%;
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			}
+
+			a#btn_npr:hover {
+				background-origin: padding-box;
+				color: white;
+				background: #e22d2d; /* Old browsers */
+			background: -moz-linear-gradient(left, #e22d2d 2%, #000000 50%, #000000 50%, #000000 50%, #000000 52%, #1d2593 100%, #7db9e8 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left, #e22d2d 2%,#000000 50%,#000000 50%,#000000 50%,#000000 52%,#1d2593 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right, #e22d2d 2%,#000000 50%,#000000 50%,#000000 50%,#000000 52%,#1d2593 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22d2d', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */	
+				
+			}
+
+			a#btn_npr:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all 1s;
+			}
+
+			a#btn_fb {
+				display: block;
+				width: 150px;
+				height: 150px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				color: #3b5998;
+				text-align: center;
+				font-size: 60px;
+				transition: 0.8s;
+			}
+
+			a#btn_fb:hover {
+				transform: rotateY(360deg); 
+			}
+
+			/* a#btn_lyft {
+				display: block;
+				width: 150px;
+				height: 150px;
+				box-sizing: border-box;
+				margin:auto;
+				padding: 8px 16px;
+				transition: all .2s;
+			} */
+
+			a#btn_ig {
+				flex: 1 1 auto;
+				display: block;
+				width: 90px;
+				height: 90px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				/* padding-top: 8px; */
+				text-align: center;
+				font-size: 60px;
+				color: white;
+				transition: 0.5s;
+  				background: linear-gradient(90deg, var(--c1, #feda77), var(--c2, #dd2a7b) 51%, var(--c1, #515bd4)) var(--x, 0)/ 200%;
+  				/* color: white; */
+ 				/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  		
+ 				}
+		
+
+			a#btn_ig:hover {
+				--c1: #fbc2eb;
+  				--c2: #a6c1ee;
+			}
+		
+			a#btn_lyft {
+				display: block;
+				width: 120px;
+				height: 120px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				color: #FF00BF;
+				text-align: center;
+				font-size: 60px;
+				transition: 0.5s;
+			}
+
+			a#btn_lyft:hover {
+				width: 150px;
+				height: 150px;
+				color: white;
+			}
+
+		
+
+			
+			
